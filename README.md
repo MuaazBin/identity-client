@@ -1,5 +1,11 @@
 # identity-client
-client sample file for testing Identity
+Client sample file for testing Identity
+
+``git clone https://github.com/MuaazBin/identity-client.git``
+
+Move to the identity-client directory and run the command below
+
+``cd identity-client``
 
 ## Usage
 Run the command below to compare a selfie image with an ID card.
