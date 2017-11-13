@@ -24,12 +24,12 @@ It offers two options currently
 
 + Pass one image and get bounding box and Landmarks as per DLIB image shown below
 
-![alt text](https://github.com/MuaazBin/identity-client/dlib-landmark-mean.png)
+![Landmark points](https://github.com/MuaazBin/identity-client/blob/master/images/dlib-landmark-mean.png)
 
 
 ## Response Syntax
 
-The program [client.py](https://github.com/MuaazBin/identity-client/client/client.py) is a client to the flask api. It has 2 functions which are called and they test the 2 endpoints in the flaskapi. 
+The program [client.py](https://github.com/MuaazBin/identity-client/blob/master/client/client.py) is a client to the flask api. It has 2 functions which are called and they test the 2 endpoints in the flaskapi. 
 * similarityclientflasktester(image1, image2, threshold):
  Takes as input 
 two images and a  similarity treshold. It base64 endcodes the images and sends a POST request  with a json 
